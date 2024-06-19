@@ -6,6 +6,7 @@
 2. [Listing Files](#listing-files)
     - [By Modification Time (newest first)](#by-modification-time-newest-first)
     - [By Size (largest first)](#by-size-largest-first)
+3. [Find a File by Its Filename in a Directory](#find-a-file-by-its-filename-in-a-directory)
 
 ### Copy all files from one folder to another 
 
@@ -32,3 +33,14 @@ ls -lt
 ```
 ls -lS
 ```
+
+### Find a file by it's filename in a directory
+Basic Syntax
+```
+find /path/to/directory -name "*part_of_name*"
+```
+Find files containing "log" in their names:
+```
+find /path/to/directory -name "*log*"
+```
+
