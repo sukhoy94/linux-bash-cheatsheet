@@ -1,5 +1,14 @@
 # Linus bash CheatSheet
 
+## Table of Contents
+
+1. [Copy All Files from One Folder to Another](#copy-all-files-from-one-folder-to-another)
+    - [Including Hidden Files](#including-hidden-files)
+2. [Listing Files](#listing-files)
+    - [By Modification Time (newest first)](#by-modification-time-newest-first)
+    - [By Size (largest first)](#by-size-largest-first)
+
+
 ### Copy all files from one folder to another 
 
 ```
