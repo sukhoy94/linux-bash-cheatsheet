@@ -39,8 +39,14 @@ Basic Syntax
 ```
 find /path/to/directory -name "*part_of_name*"
 ```
-Find files containing "log" in their names:
+#### 1. Find files containing "log" in their names:
 ```
 find /path/to/directory -name "*log*"
+```
+#### 2. Excluding folders from search
+```
+find /path/to/directory -type f -name "index*" \
+  -not -path "*/vendor/*" \
+  -not -path "*/node_modules/*"
 ```
 
