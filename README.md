@@ -7,7 +7,7 @@
     - [By Modification Time (newest first)](#by-modification-time-newest-first)
     - [By Size (largest first)](#by-size-largest-first)
 3. [Find a File by Its Filename in a Directory](#find-a-file-by-its-filename-in-a-directory)
-
+4. [List files with it's filesize](#list-files-with-its-filesize)
 ### Copy all files from one folder to another 
 
 ```
@@ -49,4 +49,8 @@ find /path/to/directory -type f -name "index*" \
   -not -path "*/vendor/*" \
   -not -path "*/node_modules/*"
 ```
+### List files with it's filesize
 
+```
+ls -lh
+```
